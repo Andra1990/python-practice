@@ -1,2 +1,3 @@
-input = ("Hola Ana, ahora tienes 30 anos. Dentro de 5 anos tendras 35 anos.")
-int(+5)
+edad = int(input("¿Cuantos anos tienes?"))
+edad_futura = edad +5
+print(f"En 5 anos tendras {edad_futura}anos.")
